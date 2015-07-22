@@ -1,0 +1,127 @@
+{
+    "type": "list",
+    "header": "Experience",
+    "content": [
+      {
+        "company": "Cerner Corp.",
+        "position": "Software Developer",
+        "location": "Kansas City MO,USA",
+        "duration":"Full Time (July 14-present)",
+        "projects":[
+          {
+            "team": "Healthe Care Management",
+            "project_points": [
+              {
+                "val": "Creating and maintaining client facing web applications and tools for Healthe Care management team"
+              },
+              {
+                "val": "Maintaining and enhancing web services consuming application in Javascript with unit test in Jasmine"
+              },
+              {
+                "val":"Creation and enhancement of RESTful API using Ruby on rails and unit tested using Rspec"
+              },
+              {
+                "val":"Help managing the infrastructure build management using Chef, Spork and Jenkins"
+              },
+              {
+                "val":"Peer reviewing code to maintain code quality standards using Crucible and github"
+              },
+              {
+                "val":"Production and staging environment support rotation"
+              }
+            ],
+            "tech":"Ruby on Rails , Git, Svn, Rspec, Javascript/Jquery, Jasmine,  Jenkins, Jira, Splunk, Maven, NodeJs"
+          },
+          {
+            "team": "Heathe Registries application",
+            "project_points": [
+              {
+                "val": "Creating and maintaining client facing web applications and tools for Healthe Registries team"
+              },
+              {
+                "val": "Maintaining and enhancing web services consuming application in Ruby on Rails"
+              },
+              {
+                "val": "Help managing the infrastructure build management using Chef, Spork and Jenkins "
+              },
+              {
+                "val": "Peer reviewing code to maintain code quality standards using Crucible and github"
+              },
+              {
+                "val": "Unit testing Ruby on Rails application using RSpec unit tests"
+              },
+              {
+                "val": "Production and staging environment support rotation"
+              }
+            ],
+            "tech":"Ruby on Rails , Git, Rspec, Javascript, Jasmine,  Jenkins, Jira"
+          },
+          {
+            "team": "DevCentral",
+            "project_points": [
+              {
+                "val": "Creating the development and testing framework for the application from ground up and handling the build using Jenkins"
+              },
+              {
+                "val": "Working on Java EE 7 application for parsing, validation and analysis of web based data"
+              },
+              {
+                "val": "Handling the application build lifecycle using  Maven, git (github) and Jenkins "
+              },
+              {
+                "val": "Unit testing the application using testing framework which includes Junit, Mockito and Clover "
+              }
+            ],
+            "tech": "Java, Maven, Git, Junit, Mockito, Jenkins, JIRA"
+          }
+        ]
+      },
+      {
+        "company": "Amazon Inc.",
+        "position": "Software Developer",
+        "location": "Seattle WA,USA",
+        "duration":"Summer 2013(May-Aug)",
+        "projects": [
+          {
+            "team": "Amazon web services",
+            "project_points": [
+              {
+                "val": "Worked on development of Coral web service based API’s which allowed authenticated access to the main Admin Database to the frontend users"
+              },
+              {
+                "val": "Created Ruby client classes to facilitate communication between the Java based API’s and Ruby on rails based frontend"
+              },
+              {
+                "val": "Created a new section on the existing Ruby on Rails website that used the API’s to make Ajax based calls to databases in different regions and provide a consolidated view of the data fetched"
+              }
+            ],
+            "tech":"Java Spring, RUBY on RAILS, JQuery, Git"
+          }
+        ]
+      },
+      {
+        "company": "Tata Consultancy Services",
+        "position": "Software Engineer",
+        "location": "Chennai TN,India",
+        "duration":"Full time (Dec 09-July 12)",
+        "projects": [
+          {
+            "team": "Tymetric360 ,Walters Kluwers",
+            "project_points": [
+              {
+                "val": "Worked on development of the frontend for a financial publication firm in C#, using Microsoft Visual studio 2009"
+              },
+              {
+                "val": "Scripting and maintaining the legacy automation scripts for Tymetrix360 using HP tool QTP"
+              },
+              {
+                "val": "Created automation test framework for Tymetric360 to migrate legacy scripts from QTP to CodedUI and C# based automation testing"
+              }
+            ],
+            "tech":"C#, Agile, Automation Testing, QTP, Vbscript"
+          }
+        ]
+      }
+    ],
+    "footer" : "exp footer"
+}

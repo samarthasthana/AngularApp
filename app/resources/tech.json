@@ -1,0 +1,124 @@
+{
+    "tech": [
+      {
+        "name": "Java",
+        "img_link":"",
+        "link": "",
+        "text": ""
+      },
+      {
+        "name": "Junit",
+        "img_link":"",
+        "link": "",
+        "text": ""
+      },
+      {
+        "name": "Maven",
+        "img_link":"",
+        "link": "",
+        "text": ""
+      },
+      {
+        "name": "Clover",
+        "img_link":"",
+        "link": "",
+        "text": ""
+      },
+      {
+        "name": "Jenkins",
+        "img_link":"",
+        "link": "",
+        "text": ""
+      },
+      {
+        "name": "Ruby on Rails",
+        "img_link":"",
+        "link": "",
+        "text": ""
+      },
+      {
+        "name": "Postgres",
+        "img_link":"",
+        "link": "",
+        "text": ""
+      },
+      {
+        "name": "Javascript",
+        "img_link":"",
+        "link": "",
+        "text": ""
+      },
+      {
+        "name": "Jquery",
+        "img_link":"",
+        "link": "",
+        "text": ""
+      },
+      {
+        "name": "AngularJS",
+        "img_link":"",
+        "link": "",
+        "text": ""
+      },
+      {
+        "name": "Jasmine",
+        "img_link":"",
+        "link": "",
+        "text": ""
+      },
+      {
+        "name": "Rspec",
+        "img_link":"",
+        "link": "",
+        "text": ""
+      },
+      {
+        "name": "HTML/CSS",
+        "img_link":"",
+        "link": "",
+        "text": ""
+      },
+      {
+        "name": "JSON/XML",
+        "img_link":"",
+        "link": "",
+        "text": ""
+      },
+      {
+        "name": "Linux",
+        "img_link":"",
+        "link": "",
+        "text": ""
+      },
+      {
+        "name": "OSX",
+        "img_link":"",
+        "link": "",
+        "text": ""
+      },
+      {
+        "name": "Splunk",
+        "img_link":"",
+        "link": "",
+        "text": ""
+      },
+      {
+        "name": "NodeJs",
+        "img_link":"",
+        "link": "",
+        "text": ""
+      },
+      {
+        "name": "GIT",
+        "img_link":"",
+        "link": "",
+        "text": ""
+      },
+      {
+        "name": "SVN",
+        "img_link":"",
+        "link": "",
+        "text": ""
+      }
+    ]
+}

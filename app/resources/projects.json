@@ -1,0 +1,56 @@
+{
+    "type": "list",
+    "header": "Academic",
+    "content": [
+      {
+        "title":"SHA-3\\Keccak Implementation",
+        "tech":"Java",
+        "link":"https://github.com/samarthasthana/SHA3_Keccak",
+        "points": [
+          {
+            "val": "Implemented the cryptographic hash function SHA 3 capable of creating a hash digest of an input"
+          },
+          {
+            "val": "Showed the avalanche property of the algorithm, and that the messaged will be hashed and collisions be rare and computationally infeasible to find"
+          }
+        ]
+      },
+      {
+        "title":"Open Source Project: Expertiza",
+        "tech":"Ruby on Rails",
+        "link":"https://github.com/samarthasthana/expertiza",
+        "points": [
+          {
+            "val": "Actively contributed to the development of the Open Source software, Expertiza"
+          },
+          {
+            "val": "Created business logic for efficient team creation and assignment allocation according to student preferences"
+          },
+          {
+            "val": "Refactored data tables and incorporated resulting code changes"
+          }
+        ]
+      },
+      {
+        "title":"Discrete Event Simulation Implementation",
+        "tech":"Java",
+        "link":"https://github.com/samarthasthana/DiscreteEventSim",
+        "points": [
+          {
+            "val": "Created a discrete event simulation implementation which models a M/M/1 queue with an exponential inter arrival rate, variable buffer length and an exponential service time for each packet in the system"
+          }
+        ]
+      },
+      {
+        "title":"Peer-to-Peer file sharing system ",
+        "tech":"C++",
+        "link":"https://github.com/samarthasthana/DiscreteEventSim",
+        "points": [
+          {
+            "val": "Created a peer to peer file sharing system using socket programming where each node acts as a hybrid server and client and a central file indexing directed server which uses a collection to manage the file indexes based on active nodes and file availability"
+          }
+        ]
+      }
+    ],
+    "footer" : "proj footer"
+}

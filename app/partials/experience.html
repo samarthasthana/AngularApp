@@ -1,0 +1,21 @@
+<div>
+  <ul ng-repeat="exp in experiences">
+    <ul>{{exp.company}} <div align="right">{{exp.location}}</div>
+      <li>{{exp.position}} <div align="right">{{exp.duration}}</div></li>
+      <ul ng-repeat="proj in exp.projects" >
+        <li align="left">{{proj.team}}</li>
+        <li align="left">{{proj.tech}}</li>
+        <ul ng-repeat="point in proj.project_points">
+          <li>{{point.val}}</li>
+        </ul>
+      </ul>
+    </ul>
+  </ul>
+  <ul ng-repeat="proj in projects">
+    <li>{{proj.title}} <div align="right">{{proj.tech}}</div></li>
+    <ul ng-repeat="point in proj.points" >
+      <li align="left">{{point.val}}</li>
+    </ul>
+    <li>{{proj.link}}</li>
+  </ul>
+</div>
