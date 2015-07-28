@@ -1,6 +1,6 @@
 {
     "type": "para",
     "header": "General Rant",
-    "content": "A full stack developer who likes to indulge in new technology.I have worked in the beautiful landscapes of front end development where javasscript reigns supreme and have scaled the depth of server logs on remote nodes to fish out the evasive creatures known as bugs. I have helped architech and build the magnificient wonders of API and have lived to consume the JSON bounty produced by service requests. Carrying respect and know how of the age old traditions of Java, I live to revel in our new world of RoR and angular. Living by wisdom of the great Chef Gusteau (Ratatouille), 'Your limit,is your soul' lets do something awesome!! ",
+    "content": "A full stack developer who likes to indulge in new technology.I have worked in the beautiful landscapes of front end development where javasscript reigns supreme and have scaled the depth of server logs on remote nodes to fish out the evasive creatures known as bugs. I have helped architech and build the magnificient wonders of API and have lived to consume the JSON bounty produced by service requests. Carrying respect and know how of the age old traditions of Java, I live to revel in our new world of RoR and angular. ",
     "footer" : "Created with angular, deployed on heroku."
 }
