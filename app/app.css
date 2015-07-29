@@ -8,7 +8,7 @@ h3 { font-size: 28px; }*/
 html, body { color: #434242; font-family: 'Open Sans', sans-serif !important; height: 100%; }
 body { background: #f7f4f1; font-size: 15px; line-height: 1.64; }
 .title {
-  font-size: 54px; text-align: center;
+  font-size: 35px; text-align: center;
   font-weight: 300; color: #22A39F;
   /*padding-bottom: 0px;*/
 }
@@ -37,25 +37,42 @@ ul.nav {
   padding: 0px;
   margin-top: 0px;
   list-style: none;
-  text-align: center;
+  /*text-align: center;*/
 }
 
-ul.nav li {
+/*ul.nav li {
   display: inline-block;
-}
+}*/
 
-.contact-footer {
-
+div.footer {
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:100px;
+  width:100%;
+  background:#999;
 }
 
 div.content {
-  margin: 30px;
+  margin-left: 430px;
+  margin-top: 150px;
   padding: 20px 40px;
   border: 1px solid #eee;
   border-bottom: 2px solid #e9e9e9;
   border-radius: 3px;
   background: #fff;
-  box-sizing: border-box;
+  float: right;
+  position: static;
+}
+
+div.sidebar {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  height: 100%;
+  width: 400px;
+  margin: 0px;
+  background: #f7f4f0
 }
 /*.menu {
   list-style: none;
