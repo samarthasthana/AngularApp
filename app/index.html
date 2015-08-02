@@ -3,7 +3,7 @@
 <!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html lang="en" ng-app="samResApp" class="no-js"> <!--<![endif]-->
+<html lang="en" ng-app="samResApp" class="no-js">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,44 +13,38 @@
   <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
   <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
   <link rel="stylesheet" href="app.css">
-
 </head>
 <body>
-  <div class="sidebar">
-    <h2 class="title">Samarth|Asthana</h2>
-    <div>
-      <ul class="nav">
-        <li><a href="#/about-me">About me</a></li>
-        <li><a href="#/experience">Experience</a></li>
-        <li><a href="#/tech">Tech</a></li>
-      </ul>
+  <div class = "main-container">
+    <div class = "sidebar">
+      <h2 class = "title">Samarth<br>Asthana</h2>
+      <div>
+        <ul class = "nav">
+          <li><a href="#/about-me">About me</a></li>
+          <li><a href="#/experience">Experience</a></li>
+          <li><a href="#/tech">Tech</a></li>
+        </ul>
+      </div>
+      <div class = "contact">
+        <span>Contact Me:</span><p></p>
+        <span>Social Icons come here</span><p></p>
+        <span>This site is a personal project made with AngularJs, deployed with Heorku</span>
+        <img class = "img-circle" src = "resources/main_img.jpg">
+      </div>
+    </div>
+    <div class = "top-header">
+      <br>
+    </div>
+    <div class="content">
+      <div ng-view class="view-frame"></div>
     </div>
   </div>
-  <!-- [if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-  <![endif] -->
-
-  <div class="view-container">
-    <div ng-view class="view-frame"></div>
-  </div>
-  <div class="footer">
-    <span>Contact Me:</span><p></p>
-    <span>Social Icons come here</span><p></p>
-    <span>This site is a personal project made with AngularJs, deployed with Heorku</span>
-  </div>
-  <!-- In production use:
-  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
-  -->
+  <!-- Partial Div -->
   <script src="bower_components/jquery/dist/jquery.js"></script>
   <script src="bower_components/angular/angular.js"></script>
   <script src="bower_components/angular-animate/angular-animate.js"></script>
   <script src="bower_components/angular-route/angular-route.js"></script>
   <script src="js/app.js"></script>
   <script src="js/controllers.js"></script>
-  <!-- // <script src="view1/view1.js"></script>
-  // <script src="view2/view2.js"></script>
-  // <script src="components/version/version.js"></script>
-  // <script src="components/version/version-directive.js"></script>
-  // <script src="components/version/interpolate-filter.js"></script> -->
 </body>
 </html>
