@@ -13,12 +13,12 @@ samResApp.config(['$routeProvider',
         templateUrl: 'partials/about-me.html',
         controller: 'SectionCtrl'
       }).
-      when('/experience', {
-        templateUrl: 'partials/experience.html',
+      when('/creds', {
+        templateUrl: 'partials/creds.html',
         controller: 'SectionCtrl'
       }).
-      when('/tech', {
-        templateUrl: 'partials/tech.html',
+      when('/blog', {
+        templateUrl: 'partials/blog.html',
         controller: 'SectionCtrl'
       }).
       // when('/phones/:phoneId', {

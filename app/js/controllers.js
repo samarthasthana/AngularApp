@@ -7,7 +7,7 @@ mainPageControllers.controller('SectionCtrl', ['$scope', '$location','$http',
   function($scope, $location, $http) {
     $http.get('resources' + $location.path() + '.json').success(function(data) {
       $scope.data = data;
-      if($location.path() === '/experience'){
+      if($location.path() === '/creds'){
         $scope.experiences = data.content;
         $http.get('resources/projects.json').success(function(data_projects) {
           $scope.projects = data_projects.content;

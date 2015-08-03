@@ -1,6 +1,90 @@
 {
     "type": "para",
-    "header": "General Rant",
+    "header": "General Rant..",
     "content": "A full stack developer who likes to indulge in new technology.I have worked in the beautiful landscapes of front end development where javasscript reigns supreme and have scaled the depth of server logs on remote nodes to fish out the evasive creatures known as bugs. I have helped architech and build the magnificient wonders of API and have lived to consume the JSON bounty produced by service requests. Carrying respect and know how of the age old traditions of Java, I live to revel in our new world of RoR and angular. ",
-    "footer" : "Created with angular, deployed on heroku."
+    "footer" : "",
+    "tech_work": [
+      {
+        "name": "Core Java",
+        "img":"",
+        "notes":""
+      },
+      {
+        "name": "Junit",
+        "img": "",
+        "notes":""
+      },
+      {
+        "name": "Maven",
+        "img": "",
+        "notes":""
+      },
+      {
+        "name": "Ruby On Rails",
+        "img": "",
+        "notes":""
+      },
+      {
+        "name": "Rspec",
+        "img": "",
+        "notes":""
+      },
+      {
+        "name": "Javascript",
+        "img": "",
+        "notes":""
+      },
+      {
+        "name": "Jasmine",
+        "img": "",
+        "notes":""
+      },
+      {
+        "name": "REST API/Spring",
+        "img": "",
+        "notes":""
+      },
+      {
+        "name": "Git/Svn",
+        "img": "",
+        "notes":""
+      },
+      {
+        "name": "HTML/CSS",
+        "img": "",
+        "notes":""
+      },
+      {
+        "name": "SQL/Postgres",
+        "img": "",
+        "notes":""
+      },
+      {
+        "name": "DevTools: Jira/Crucible/Jenkins/Splunk",
+        "img": "",
+        "notes":""
+      }
+    ],
+    "tech_explore": [
+      {
+        "name": "AngularJs",
+        "img": "",
+        "notes":""
+      },
+      {
+        "name": "Redis/MongoDb",
+        "img": "",
+        "notes":""
+      },
+      {
+        "name": "NodeJs",
+        "img": "",
+        "notes":""
+      },
+      {
+        "name": "Python",
+        "img": "",
+        "notes":""
+      }
+    ]
 }
