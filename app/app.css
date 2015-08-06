@@ -22,11 +22,18 @@ h2.title {
   margin-right: 20px;
 }
 
+h1 {
+  font-family: "Brandon Grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2.30em;
+  border-bottom: 1px solid whiteSmoke;
+  color: #09908b;
+}
+
  ul.nav a {
   display: block;
   padding: 30px;
   padding-left: 5px;
-  text-transform:  lowercase;
+  text-transform:  uppercase;
   letter-spacing: 1px;
   opacity: 0.8;
   color: #22A39F;
@@ -44,7 +51,7 @@ ul.nav {
     border-radius: 50%;
     width: 150px;
     height: 150px;
-    margin-top: 10px;
+    margin-top: 10px ;
     padding: 5px;
 }
 
@@ -53,16 +60,6 @@ ul.nav {
   width: 30px;
   height: 30px;
   padding: 5px;
-}
-
-div.social-icons{
-  
-}
-
-div.contact {
-  /*position:absolute;
-  bottom:0px;
-  background:#999;*/
 }
 
 div.main-container {
@@ -79,16 +76,22 @@ div.content {
   padding: 20px 40px;
   width: 65%;
   border-top: 100px;
-  margin: 0px;
+  margin: 35px;
   background: #fff;
   float: left;
   border-bottom: 2px solid #e9e9e9;
-  border-radius: 3px;
+  box-shadow: 0 0 5px rgba(0,0,0,.2);
 }
 
 div.sidebar {
   width: 20%;
   margin: 0px;
   float: left;
-  background: #f7f4f0
+  background: #f3f3f3;
+  box-shadow: 0 0 1px rgba(0,0,0,.2);
+  text-align: center;
+}
+
+table.tbl-acad td {
+  padding: 15px;
 }
