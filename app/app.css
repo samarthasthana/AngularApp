@@ -62,6 +62,14 @@ ul.nav {
   padding: 5px;
 }
 
+.oval-img-link {
+  border-radius: 30%;
+  width: 50px;
+  height: 27px;
+  padding: 2px;
+  box-shadow: 0 0 5px rgba(0,0,0,.2);
+}
+
 div.main-container {
   width: 100%;
   margin: 0px;
@@ -90,6 +98,16 @@ div.sidebar {
   background: #f3f3f3;
   box-shadow: 0 0 1px rgba(0,0,0,.2);
   text-align: center;
+}
+
+div.company-title {
+  font-size: 20px;
+  color: #22A39F;
+}
+
+.tech-line {
+  font-weight: 700;
+  list-style: none;
 }
 
 table.tbl-acad td {

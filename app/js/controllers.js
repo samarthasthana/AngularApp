@@ -11,6 +11,7 @@ mainPageControllers.controller('SectionCtrl', ['$scope', '$location','$http',
         $scope.experiences = data.content;
         $http.get('resources/projects.json').success(function(data_projects) {
           $scope.projects = data_projects.content;
+          $scope.data_projects = data_projects;
         });
       }
     });

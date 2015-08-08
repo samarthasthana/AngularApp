@@ -32,22 +32,29 @@
     <h1>{{data.header}}</h1>
   </div>
   <ul ng-repeat="exp in experiences">
-    <ul>{{exp.company}} <div align="right">{{exp.location}}</div>
+    <div class ="company-title">
+      {{exp.company}}
+    </div>
+    <ul>
+      <div align="right">{{exp.location}}</div>
       <li>{{exp.position}} <div align="right">{{exp.duration}}</div></li>
       <ul ng-repeat="proj in exp.projects" >
-        <li align="left">{{proj.team}}</li>
-        <li align="left">{{proj.tech}}</li>
+        <li align="left" title="Team name">{{proj.team}}</li>
+        <li align="left" class ="tech-line">{{proj.tech}}</li>
         <ul ng-repeat="point in proj.project_points">
           <li>{{point.val}}</li>
         </ul>
       </ul>
     </ul>
   </ul>
+  <div id="section-header">
+    <h1>{{data_projects.header}}</h1>
+  </div>
   <ul ng-repeat="proj in projects">
-    <li>{{proj.title}} <div align="right">{{proj.tech}}</div></li>
+    <li>{{proj.title}} <div align="right" class = "tech-line">{{proj.tech}}</div></li>
     <ul ng-repeat="point in proj.points" >
       <li align="left">{{point.val}}</li>
     </ul>
-    <li>{{proj.link}}</li>
+    <a href = {{proj.link}} ><img class ="oval-img-link" src = "resources/gitdown.jpg"></a>
   </ul>
 </div>

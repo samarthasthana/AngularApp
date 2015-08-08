@@ -1,6 +1,6 @@
 {
     "type": "list",
-    "header": "Academic",
+    "header": "Academic Projects",
     "content": [
       {
         "title":"SHA-3\\Keccak Implementation",
