@@ -14,6 +14,10 @@ mainPageControllers.controller('SectionCtrl', ['$scope', '$location','$http',
           $scope.data_projects = data_projects;
         });
       }
+      if($location.path() === '/about-me'){
+        $scope.tech_work = data.tech_work;
+        $scope.tech_explore = data.tech_explore;
+      }
     });
  }]);
 

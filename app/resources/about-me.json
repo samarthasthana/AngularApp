@@ -3,87 +3,94 @@
     "header": "General Rant..",
     "content": "A full stack developer who likes to indulge in new technology.I have worked in the beautiful landscapes of front end development where javasscript reigns supreme and have scaled the depth of server logs on remote nodes to fish out the evasive creatures known as bugs. I have helped architech and build the magnificient wonders of API and have lived to consume the JSON bounty produced by service requests. Carrying respect and know how of the age old traditions of Java, I live to revel in our new world of RoR and angular. ",
     "footer" : "",
+    "tech_work_text": "Tech worked with",
     "tech_work": [
       {
         "name": "Core Java",
-        "img":"",
+        "img":"resources/java.jpg",
         "notes":""
       },
       {
         "name": "Junit",
-        "img": "",
+        "img": "resources/junit.jpg",
         "notes":""
       },
       {
         "name": "Maven",
-        "img": "",
+        "img": "resources/maven.jpg",
         "notes":""
       },
       {
         "name": "Ruby On Rails",
-        "img": "",
+        "img": "resources/ror.png",
         "notes":""
       },
       {
         "name": "Rspec",
-        "img": "",
+        "img": "resources/rspec.png",
         "notes":""
       },
       {
         "name": "Javascript",
-        "img": "",
+        "img": "resources/js.png",
         "notes":""
       },
       {
         "name": "Jasmine",
-        "img": "",
+        "img": "resources/jasmine.svg",
         "notes":""
       },
       {
         "name": "REST API/Spring",
-        "img": "",
+        "img": "resources/api.png",
         "notes":""
       },
       {
         "name": "Git/Svn",
-        "img": "",
+        "img": "resources/git.jpg",
         "notes":""
       },
       {
         "name": "HTML/CSS",
-        "img": "",
+        "img": "resources/htmlcss.jpg",
         "notes":""
       },
       {
         "name": "SQL/Postgres",
-        "img": "",
+        "img": "resources/SQL.png",
         "notes":""
       },
       {
         "name": "DevTools: Jira/Crucible/Jenkins/Splunk",
-        "img": "",
+        "img": "resources/jira.png",
+        "notes":""
+      },
+      {
+        "name": "Heroku",
+        "img": "resources/heroku.jpeg",
         "notes":""
       }
     ],
+    "tech_explore_text": "Tech exploring",
     "tech_explore": [
       {
         "name": "AngularJs",
-        "img": "",
+        "img": "resources/angular.png",
         "notes":""
       },
       {
         "name": "Redis/MongoDb",
-        "img": "",
+        "img": "resources/redis.jpg",
         "notes":""
       },
       {
         "name": "NodeJs",
-        "img": "",
+        "img": "resources/nodejs.png",
         "notes":""
       },
       {
-        "name": "Python",
-        "img": "",
+        "name": "RaspberryPi",
+        "img": "resources/rasp.png",
         "notes":""
       }
     ]

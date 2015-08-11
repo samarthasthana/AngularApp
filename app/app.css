@@ -38,6 +38,7 @@ h1 {
   opacity: 0.8;
   color: #22A39F;
   font-size: 20px;
+  text-decoration: none;
 }
 
 ul.nav {
@@ -60,6 +61,15 @@ ul.nav {
   width: 30px;
   height: 30px;
   padding: 5px;
+}
+
+.tech-circles {
+  border-radius: 60%;
+  width: 10%;
+  height: 9%;
+  padding: 2px;
+  margin: 2px;
+  box-shadow: 0 0 5px rgba(0,0,0,.2);
 }
 
 .oval-img-link {
@@ -112,4 +122,10 @@ div.company-title {
 
 table.tbl-acad td {
   padding: 15px;
+}
+
+span.site-info {
+  margin: 10px;
+  font-size: 13px; text-align: center;
+  font-weight: 200; color: #22A39F;
 }

@@ -11,5 +11,18 @@
         <p>{{data.footer}}</p>
       </div>
     </div>
+    <div>
+      <h1>{{data.tech_work_text}}</h1>
+      <span ng-repeat = "ele in tech_work">
+          <a href = "" ><img class ="tech-circles" src = {{ele.img}}></a>
+      </span>
+      </div>
+    </div>
+    <div>
+      <h1>{{data.tech_explore_text}}</h1>
+      <span ng-repeat = "ele in tech_explore">
+        <a href = "" ><img class ="tech-circles" src = {{ele.img}}></a>
+      </span>
+    </div>
   </body>
 </html>
